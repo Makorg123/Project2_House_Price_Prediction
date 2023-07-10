@@ -1,5 +1,6 @@
 import joblib
 
 def predict(data):
-    rf = joblib.load('rf_model.sav')
-    return reg.predict(data)
+      model = joblib.load('rf_model.sav')
+      prediction = model.predict(data)
+      return prediction
