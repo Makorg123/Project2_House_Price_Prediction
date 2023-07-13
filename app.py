@@ -30,4 +30,4 @@ if st.button("Predict Price of House"):
     data = pd.DataFrame(data.reshape(-1, len(data)), columns=['area', 'bedrooms', 'bathrooms', 'stories', 'parking','mainroad', 'guestroom', 'basement', 'hotwaterheating', 'airconditioning', 'prefarea', 'furnishingstatus'])
     st.write(data)
     prediction = predict(data)
-    st.header(f'Predicted price of house is {prediction[0]}')
+    st.text(f'Predicted price of house is {prediction[0]}')
