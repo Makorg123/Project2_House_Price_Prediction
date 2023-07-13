@@ -15,15 +15,15 @@ with col1:
 with col2:
     stories = st.number_input('No. of stories: 1 to 4')
     parking = st.number_input('Parking space: 0 to 3')
-    mainroad = st.selectbox('Main road', ['Yes', 'No'])
+    mainroad = st.number_input('Main road: 0 or 1')
 with col3: 
-    guestroom = st.selectbox('Guest room', ['Yes', 'No'])
-    basement = st.selectbox('Basement', ['Yes', 'No'])
-    hotwaterheating = st.selectbox('Hot water heating', ['Yes', 'No'])
+    guestroom = st.number_input('Guest room: 0 or 1')
+    basement = st.number_input('Basement: 0 or  1')
+    hotwaterheating = st.number_input('Hot water heating: 0 or 1')
 with col4:
-    airconditioning = st.selectbox('Air conditioning', ['Yes', 'No'])
-    prefarea = st.selectbox('Preferred area', ['Yes', 'No'])
-    furnishingstatus = st.selectbox('Furnishing status', ['Unfurnished', 'Semi-Furnished', 'Furnished'])
+    airconditioning = st.number_input('Air conditioning: 0 or 1')
+    prefarea = st.number_input('Preferred area: 0 or 1')
+    furnishingstatus = st.number_input('Furnishing status: 0, 1 or 2')
 
 if st.button("Predict Price of House"):
     data = np.array([area, bedrooms	, bathrooms	, stories, parking, mainroad, guestroom, basement, hotwaterheating, airconditioning, prefarea, furnishingstatus])
