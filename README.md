@@ -37,18 +37,18 @@ Contributions to this project are welcome. If you would like to contribute, plea
 
 ### Fork the repository on GitHub
 
-1)Create a new branch from the **`main`** branch to work on your changes.
-2)Make your modifications and commit your changes.
-3)Push your branch to your forked repository.
-4)Open a pull request to the original repository, describing the changes you made.
+- 1)Create a new branch from the **`main`** branch to work on your changes.
+- 2)Make your modifications and commit your changes.
+- 3)Push your branch to your forked repository.
+- 4)Open a pull request to the original repository, describing the changes you made.
 
 ### License
 This project is licensed under the GPU License.
 
 ### Acknowledgments
-• The dataset used in this project is sourced from: https://www.kaggle.com/datasets/harishkumardatalab/housing-price-prediction
-• The Random Forest algorithm is implemented using the scikit-learn library.
-• The Streamlit framework is used for creating the web application.
+- The dataset used in this project is sourced from: https://www.kaggle.com/datasets/harishkumardatalab/housing-price-prediction
+- The Random Forest algorithm is implemented using the scikit-learn library.
+- The Streamlit framework is used for creating the web application.
 
 ### Contact
 If you have any questions or suggestions regarding this project, please feel free to contact me at 132anaskhan@gmail.com.
