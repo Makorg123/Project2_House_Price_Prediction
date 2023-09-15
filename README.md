@@ -24,7 +24,7 @@ The model takes into account various factors such as **location**, **square foot
 
 **Model Evaluation**: Assessing the performance of the trained linear regression model using evaluation metrics such as mean squared error (MSE), root mean squared error (RMSE), and R-squared. These metrics provide insights into how well the model predicts the values and indicate its overall accuracy.
 
-**Prediction and Deployment**: in this phase, I've used **Streamlit** for deploying the app. to predict the MPG values for vehicles not included in the training phase. 
+**Prediction and Deployment**: in this phase, I've used **Streamlit** for deploying the app. to predict the  values for house which is not included in the training phase. 
 
 If you found the House Price Prediction project helpful and insightful, I would also greatly appreciate an upvote on Kaggle. Your support will contribute to its visibility and encourage others to benefit from this project. 🙏👍
 Kaggle: https://lnkd.in/gxQ69ctM
