@@ -20,9 +20,9 @@ The model takes into account various factors such as **location**, **square foot
 
 **Data Preprocessing**: Cleaning and preprocessing the dataset to handle missing values, outliers, and inconsistencies. This step also involves transforming categorical variables into numerical representations, normalizing numeric features, and splitting the dataset into training and testing subsets.
 
-**Model Training**: Implementing linear regression using appropriate libraries or frameworks. The training process involves fitting the model to the training data, estimating the coefficients (slope and intercept), and optimizing the model's performance by minimizing the residual errors between the predicted and actual MPG values.
+**Model Training**: Implementing linear regression using appropriate libraries or frameworks. The training process involves fitting the model to the training data, estimating the coefficients (slope and intercept), and optimizing the model's performance by minimizing the residual errors between the predicted and actual values.
 
-**Model Evaluation**: Assessing the performance of the trained linear regression model using evaluation metrics such as mean squared error (MSE), root mean squared error (RMSE), and R-squared. These metrics provide insights into how well the model predicts the MPG values and indicate its overall accuracy.
+**Model Evaluation**: Assessing the performance of the trained linear regression model using evaluation metrics such as mean squared error (MSE), root mean squared error (RMSE), and R-squared. These metrics provide insights into how well the model predicts the values and indicate its overall accuracy.
 
 **Prediction and Deployment**: in this phase, I've used **Streamlit** for deploying the app. to predict the MPG values for vehicles not included in the training phase. 
 
